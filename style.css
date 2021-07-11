@@ -1,0 +1,58 @@
+:root{
+    --text-color: #7e7e7e;
+    --headings: #003153;
+}
+
+body{
+    margin: 50px 100px;
+    background-color: #F4F4F4;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    position: relative;
+    height: 50px;
+}
+
+nav ul{
+    position: absolute;
+    right: 0;
+}
+li{
+    list-style: none;
+    float: left;
+    margin-left: 50px;
+}
+li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+h1{
+    color: var(--headings);
+    font-size: 30px;
+}
+
+span{
+    color: tomato;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+}
+
+img{
+    width: 100%;
+}
+
+p{color: var(--text-color);}
+
+#hire-me{
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    background-image: linear-gradient(tomato, salmon);
+}
