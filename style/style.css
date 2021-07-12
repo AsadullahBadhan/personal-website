@@ -77,6 +77,7 @@ h2{
 }
 
 #work{
+    width: 100%;
     background-color: #f3f3f3;
     display: flex;
     flex-direction: column;
@@ -139,4 +140,10 @@ h2{
 .social img{
     height: 50px;
     width: 50px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
 }
