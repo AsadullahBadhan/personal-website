@@ -78,22 +78,18 @@ h2{
 
 #work{
     background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-#work h2{
-    display: inline-block;
-    margin-left: 250px;
+.project-gallery{
+    display: flex;
 }
-
-.project-gallary{
-    margin: 25px 75px;
-}
-
 .project-item{
     height: 250px;
     width: 200px;
     padding: 10px;
-    float: left;
     margin-left: 10px;
     background-color: #fff;
     border-radius: 5px;
