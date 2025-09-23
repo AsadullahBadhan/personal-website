@@ -1,149 +1,161 @@
-:root{
-    --text-color: #7e7e7e;
-    --headings: #003153;
+:root {
+	--primary-color: tomato;
+	--text-color: #7e7e7e;
+	--headings: #003153;
 }
 
-body{
-    margin: 50px 50px;
-    background-color: #fafafa;
-    font-family: 'Poppins', sans-serif;
+body {
+	margin: 50px 10%;
+	background-color: #fafafa;
+	font-family: "Poppins", sans-serif;
 }
 
-nav{
-    position: relative;
-    height: 50px;
-    margin-bottom: 50px;
+nav {
+	position: relative;
+	height: 50px;
+	margin-bottom: 50px;
 }
 
-nav ul{
-    position: absolute;
-    right: 0;
+nav ul {
+	position: absolute;
+	right: 0;
 }
-li{
-    list-style: none;
-    float: left;
-    margin-left: 50px;
+li {
+	list-style: none;
+	float: left;
+	margin-left: 50px;
 }
-li a{
-    text-decoration: none;
-    color: #333;
-    font-size: 14px;
-    font-weight: 600;
-}
-
-section{
-    height: 400px;
-    margin-top: 50px;
+li a {
+	text-decoration: none;
+	color: #333;
+	font-size: 14px;
+	font-weight: 600;
 }
 
-h1{
-    color: var(--headings);
-    font-size: 30px;
+a {
+	text-decoration: none;
+	color: inherit;
 }
 
-span{
-    color: tomato;
+li a:hover {
+	color: var(--primary-color);
 }
 
-.half-width{
-    width: 50%;
-    float: left;
+section {
+	height: 400px;
+	margin: 50px;
 }
 
-img{
-    height: auto;
-    width: 100%;
+.hero-text {
+	color: var(--headings);
+	font-size: 3rem;
 }
 
-#portfolio-img{
-    height: auto;
-    width: 80%;
-}
-p{
-    color: var(--text-color);
-    font-size: 12px;
+.hero span {
+	color: var(--primary-color);
 }
 
-button{
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 5px 20px;
-    background-image: linear-gradient(tomato, salmon);
+.half-width {
+	width: 50%;
+	float: left;
 }
 
-h2{
-    color: var(--headings);
+img {
+	height: auto;
+	width: 100%;
 }
 
-#work{
-    width: 100%;
-    background-color: #f3f3f3;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.half-width img {
+	height: 300px;
+	width: 300px;
+	border: 3px solid var(--primary-color);
+	border-radius: 50%;
+}
+p {
+	color: var(--text-color);
+	font-size: 1rem;
 }
 
-.project-gallery{
-    display: flex;
-}
-.project-item{
-    height: 250px;
-    width: 200px;
-    padding: 10px;
-    margin-left: 10px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px 5px rgba(196,196,196,0.5);
+button {
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	background-image: linear-gradient(var(--primary-color), salmon);
 }
 
-.project-item img{
-    height: auto;
-    width: 100%;
+h2 {
+	color: var(--headings);
 }
 
-.project-item h4{
-    color: var(--headings);
+#work {
+	width: 100%;
+	background-color: #f3f3f3;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-.project-item p{
-    font-size: 10px;
+.project-gallery {
+	display: flex;
+}
+.project-item {
+	height: 250px;
+	width: 200px;
+	padding: 10px;
+	margin-left: 10px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 5px rgba(196, 196, 196, 0.5);
 }
 
-#contact{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-.chat-box{
-    width: 400px;
-    height: 100px;
-    padding: 0 10px;
-    background-image: url(../images/chat-box.png);
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.project-item img {
+	height: auto;
+	width: 100%;
 }
 
-.chat-box h2{
-    color: white;
+.project-item h4 {
+	color: var(--headings);
 }
 
-.social{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.project-item p {
+	font-size: 10px;
 }
 
-.social img{
-    height: 50px;
-    width: 50px;
+#contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.chat-box {
+	width: 400px;
+	height: 100px;
+	padding: 0 10px;
+	background-image: url(../images/chat-box.png);
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
-.icons{
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
+.chat-box h2 {
+	color: white;
+}
+
+.social {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.social img {
+	height: 50px;
+	width: 50px;
+}
+
+.icons {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
 }
